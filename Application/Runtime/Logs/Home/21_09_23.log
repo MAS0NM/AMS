@@ -1,0 +1,290 @@
+[ 2021-09-23T16:02:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000040s ]
+NOTIC: [8] Undefined variable: smarty D:\Personal Files\ams\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 93 行.
+NOTIC: [8] Trying to access array offset on value of type null D:\Personal Files\ams\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 93 行.
+NOTIC: [8] Trying to access array offset on value of type null D:\Personal Files\ams\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2021-09-23T16:02:43+08:00 ] 127.0.0.1 /index.php/Home/Index/insign/empno/1601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2021-09-23T16:03:04+08:00 ] 127.0.0.1 /index.php/Home/Index/offsign/empno/1601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2021-09-23T16:03:25+08:00 ] 127.0.0.1 /index.php/Home/Index/insign/empno/1601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2021-09-23T16:03:46+08:00 ] 127.0.0.1 /index.php/Home/Index/insign/empno/1601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2021-09-23T16:04:07+08:00 ] 127.0.0.1 /index.php/Home/Index/insign/empno/1601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2021-09-23T16:13:49+08:00 ] 127.0.0.1 /index.php/Home/Index/insign/empno/1601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2021-09-23T16:14:45+08:00 ] 127.0.0.1 /index.php/Home/Index/insign/empno/1601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2021-09-23T16:15:06+08:00 ] 127.0.0.1 /index.php/Home/Index/insign/empno/1601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2021-09-23T16:15:27+08:00 ] 127.0.0.1 /index.php/Home/Index/insign/empno/1601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2021-09-23T16:15:48+08:00 ] 127.0.0.1 /index.php/Home/Index/insign/empno/1601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2021-09-23T16:16:09+08:00 ] 127.0.0.1 /index.php/Home/Index/insign/empno/1601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001709s ]
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2021-09-23T16:16:30+08:00 ] 127.0.0.1 /index.php/Home/Index/insign/empno/1601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2021-09-23T16:16:52+08:00 ] 127.0.0.1 /index.php/Home/Index/insign/empno/1601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+
+[ 2021-09-23T16:17:13+08:00 ] 127.0.0.1 /index.php/Home/Index/insign/empno/1601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+
+[ 2021-09-23T16:17:34+08:00 ] 127.0.0.1 /index.php/Home/Index/insign/empno/1601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002179s ]
+
+[ 2021-09-23T16:17:55+08:00 ] 127.0.0.1 /index.php/Home/Index/insign/empno/1601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+
+[ 2021-09-23T16:18:16+08:00 ] 127.0.0.1 /index.php/Home/Index/insign/empno/1601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+
+[ 2021-09-23T16:18:37+08:00 ] 127.0.0.1 /index.php/Home/Index/insign/empno/1601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2021-09-23T16:20:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000034s ]
+NOTIC: [8] Undefined variable: smarty D:\Personal Files\ams\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 93 行.
+NOTIC: [8] Trying to access array offset on value of type null D:\Personal Files\ams\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 93 行.
+NOTIC: [8] Trying to access array offset on value of type null D:\Personal Files\ams\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001306s ]
+
+[ 2021-09-23T16:20:16+08:00 ] 127.0.0.1 /index.php/Home/Index/insign/empno/1601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `w_emp` [ RunTime:1.1169s ]
+SQL: SELECT * FROM `w_emp` WHERE ( empno = '1601' ) LIMIT 1   [ RunTime:1.1213s ]
+SQL: SHOW COLUMNS FROM `w_insign` [ RunTime:0.4061s ]
+SQL: SHOW COLUMNS FROM `w_time` [ RunTime:0.4681s ]
+SQL: SELECT * FROM `w_time` LIMIT 1   [ RunTime:0.4184s ]
+SQL: SELECT * FROM `w_insign` WHERE ( empno = '1601' and signdate = '2021-09-23' ) LIMIT 1   [ RunTime:0.4186s ]
+SQL: INSERT INTO `w_insign` (`empno`,`signdate`,`signtime`,`status`) VALUES ('1601','2021-09-23','16:20:15','旷工') [ RunTime:0.4220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001252s ]
+
+[ 2021-09-23T16:20:22+08:00 ] 127.0.0.1 /index.php/Home/Index/offsign/empno/1601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+SQL: SHOW COLUMNS FROM `w_emp` [ RunTime:0.4163s ]
+SQL: SELECT * FROM `w_emp` WHERE ( empno = '1601' ) LIMIT 1   [ RunTime:0.4476s ]
+SQL: SHOW COLUMNS FROM `w_offsign` [ RunTime:0.4603s ]
+SQL: SHOW COLUMNS FROM `w_time` [ RunTime:0.4890s ]
+SQL: SHOW COLUMNS FROM `w_insign` [ RunTime:0.4313s ]
+SQL: SELECT * FROM `w_time` LIMIT 1   [ RunTime:0.4328s ]
+SQL: SELECT * FROM `w_offsign` WHERE ( empno = '1601' and signdate = '2021-09-23' ) LIMIT 1   [ RunTime:0.4719s ]
+SQL: SELECT * FROM `w_insign` WHERE ( empno = '1601' and signdate = '2021-09-23' ) LIMIT 1   [ RunTime:0.4256s ]
+SQL: INSERT INTO `w_offsign` (`empno`,`signdate`,`signtime`,`status`) VALUES ('1601','2021-09-23','16:20:21','旷工') [ RunTime:0.4473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001295s ]
+
+[ 2021-09-23T16:20:27+08:00 ] 127.0.0.1 /index.php/Home/Index/insign/empno/1601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `w_emp` [ RunTime:0.4434s ]
+SQL: SELECT * FROM `w_emp` WHERE ( empno = '1601' ) LIMIT 1   [ RunTime:0.4875s ]
+SQL: SHOW COLUMNS FROM `w_insign` [ RunTime:0.4235s ]
+SQL: SHOW COLUMNS FROM `w_time` [ RunTime:0.5180s ]
+SQL: SELECT * FROM `w_time` LIMIT 1   [ RunTime:0.4413s ]
+SQL: SELECT * FROM `w_insign` WHERE ( empno = '1601' and signdate = '2021-09-23' ) LIMIT 1   [ RunTime:0.4544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2021-09-23T16:20:33+08:00 ] 127.0.0.1 /index.php/Home/Index/offsign/empno/1601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `w_emp` [ RunTime:0.4344s ]
+SQL: SELECT * FROM `w_emp` WHERE ( empno = '1601' ) LIMIT 1   [ RunTime:0.4925s ]
+SQL: SHOW COLUMNS FROM `w_offsign` [ RunTime:0.4106s ]
+SQL: SHOW COLUMNS FROM `w_time` [ RunTime:0.4657s ]
+SQL: SHOW COLUMNS FROM `w_insign` [ RunTime:0.4288s ]
+SQL: SELECT * FROM `w_time` LIMIT 1   [ RunTime:0.4309s ]
+SQL: SELECT * FROM `w_offsign` WHERE ( empno = '1601' and signdate = '2021-09-23' ) LIMIT 1   [ RunTime:0.4470s ]
+SQL: SELECT * FROM `w_insign` WHERE ( empno = '1601' and signdate = '2021-09-23' ) LIMIT 1   [ RunTime:0.3966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
