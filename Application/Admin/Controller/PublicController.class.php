@@ -27,6 +27,7 @@ class PublicController extends Controller{
 		        'fontttf'   =>  '4.ttf',          // 验证码字体，不设置随机获取
 			);
 		//实例化验证码类
+		ob_clean();
 		$verify = new \Think\Verify($cfg);
 		//输出验证码
 		$verify -> entry();
