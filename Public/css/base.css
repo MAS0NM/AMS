@@ -260,8 +260,6 @@ li {
     border: 1px solid #c0c0c0;
 }
 
-.button:active {}
-
 .button.long2 {
     width: 100px;
 }

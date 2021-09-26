@@ -5,7 +5,7 @@
 
 body {
     font-family: '微软雅黑';
-    background: #2a83cf;
+    background: #23232e;
 }
 
 
@@ -13,7 +13,7 @@ body {
 
 #hd {
     height: 74px;
-    background: url(../images/topbg.png) repeat-x;
+    /* background: url(../images/mikoto.png) no-repeat; */
 }
 
 #hd .hd-wrap {
@@ -26,7 +26,7 @@ body {
     position: absolute;
     width: 346px;
     height: 74px;
-    background: url(../images/toplight.png);
+    /* background: url(../images/toplight.png); */
     top: 0;
     left: 0;
 }
@@ -105,21 +105,22 @@ h1 {
 }
 
 .toolbar a {
+    margin-left: 6px;
     float: left;
-    height: 42px;
-    line-height: 42px;
+    height: 32px;
+    line-height: 32px;
 }
 
 .toolbar a.home-btn {
-    width: 40px;
-    padding-left: 46px;
+    width: 32px;
+    padding-left: 34px;
     background: url(../images/home.png) no-repeat left top;
     color: #fff;
     font-size: 14px;
 }
 
 .toolbar a.quit-btn {
-    width: 39px;
+    width: 32px;
     background: url(../images/exit.png) no-repeat left top;
 }
 
@@ -129,14 +130,16 @@ h1 {
 #bd {
     padding-top: 6px;
     margin: 0 4px;
-    background: #fff url(../images/centertopbg.png) repeat-x left top;
+    /* background: #fff url(../images/centertopbg.png) repeat-x left top; */
+    background: #FFFFFF;
+    border-radius: 8px;
 }
 
 #bd .wrap {
     padding-left: 187px;
     padding-bottom: 6px;
     padding-right: 6px;
-    background: url(../images/centerbottombg.png) repeat-x left bottom;
+    /* background: url(../images/centerbottombg.png) repeat-x left bottom; */
 }
 
 
@@ -148,11 +151,12 @@ h1 {
     margin-left: -181px;
     width: 175px;
     overflow-y: auto;
+    border-radius: 8px;
 }
 
 .sidebar h2 {
-    background: url(../images/lefttopbg.png) repeat-x;
-    border-radius: 2px 2px 0 0;
+    /* background: url(../images/lefttopbg.png) repeat-x; */
+    background: #23232e;
 }
 
 .sidebar h2 p {
@@ -181,8 +185,8 @@ h1 {
 }
 
 .sidebar .nav>li.current .nav-header {
-    background: #6ec673;
-    border-color: #72b877;
+    background: #FFA500;
+    border-color: #FFD700;
 }
 
 .sidebar .nav>li.current .nav-header span {
@@ -203,6 +207,7 @@ h1 {
 
 .sidebar .nav>li .nav-header a span {
     float: left;
+    padding-left: 8px;
 }
 
 .sidebar .nav>li .nav-header a i {
@@ -221,7 +226,7 @@ h1 {
 }
 
 .sidebar .nav>li.office .nav-header a {
-    background: url(../images/ico01.png) no-repeat left center;
+    background: url(../images/dept.png) no-repeat left center;
 }
 
 .sidebar .nav>li.gongwen .nav-header a {
@@ -237,7 +242,7 @@ h1 {
 }
 
 .sidebar .nav>li.agency .nav-header a {
-    background: url(../images/ico05.png) no-repeat left center;
+    background: url(../images/staff.png) no-repeat left center;
 }
 
 .sidebar .nav>li.email .nav-header a {
@@ -245,7 +250,7 @@ h1 {
 }
 
 .sidebar .nav>li.system .nav-header a {
-    background: url(../images/ico07.png) no-repeat left center;
+    background: url(../images/setting.png) no-repeat left center;
 }
 
 
@@ -288,7 +293,8 @@ h1 {
 #ft {
     height: 25px;
     line-height: 22px;
-    background: url(../images/footbg.png) repeat-x;
+    /* background: url(../images/footbg.png) repeat-x; */
+    background: #23232e;
 }
 
 #ft span {
