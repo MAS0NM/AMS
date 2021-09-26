@@ -43,7 +43,11 @@ class PublicController extends Controller{
 		//验证
 		$result = $verify -> check($post['captcha']);
 		//判断验证码是否正确
-		if($result){
+
+		//20210926:绕过验证码检测 $result
+
+		// if($result){
+		if(1){
 			//验证码正确，继续处理用户名和密码
 			$model = M('user');
 			//删除验证码元素
