@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="/Public/css/right.css">
+    <link rel="stylesheet" href="/Public/css/reset.css">
+    <style type="text/css">
+        .homeText {
+            height: 25px;
+            line-height: 25px;
+            margin-left: 27px;
+            margin-top: 5px;
+        }
+        
+        .homeText .hello {
+            margin-left: 10px;
+            font-size: 32px;
+            color: #23232e;
+            transform: translate(0, -50%);
+        }
+        
+        .homeText .time {
+            margin-left: 10px;
+            font-size: 24px;
+            color: #23232e;
+            line-height: 50px;
+        }
+        
+        a {
+            color: #FFA500;
+        }
+        
+        a:hover {
+            color: #9ACD32;
+        }
+        
+        .header {
+            padding-left: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #23232e;
+            background: #23232e;
+        }
+    </style>
+    <script src="__ADMIN__/js/jquery.js"></script>
+    <script>
+        window.onload = function() {
+            showtime();
+        }
+        var dateToString = function(num) {
+            return num < 10 ? '0' + num : num;
+        };
+
+        function showtime() {
+            var currentDate = new Date();
+            year = dateToString(currentDate.getFullYear());
+            month = dateToString(currentDate.getMonth() + 1);
+            date = dateToString(currentDate.getDate());
+            hour = dateToString(currentDate.getHours());
+            minute = dateToString(currentDate.getMinutes());
+            document.getElementById("date").innerHTML = year + '年' + month + '月' + date + '日' + hour + ':' + minute;
+        };
+    </script>
+</head>
+
+<body>
+    <div id="main">
+        <div class="header" id="header"><span id="msg">位置：</span>首页</div>
+        <div class="homeText">
+            <ul id="mainContant">
+                <li><img src="/Public/images/sun.png"><span id="msg" class="hello">欢迎使用考勤管理系统</span></li>
+                <li><img src="/Public/images/time.png" style="padding: 8px"><span class="time">您本次登录的时间：<span id="date"></span></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

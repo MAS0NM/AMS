@@ -1,0 +1,236 @@
+﻿html {
+    *overflow: auto;
+}
+
+body {
+    font-family: '微软雅黑';
+    /* background: #2074bb; */
+    background: url(../images/bg1.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+
+#container {
+    position: relative;
+    background: url(../images/login_light.png) no-repeat center center;
+}
+
+.hou {
+    width: 80px;
+    height: 50px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+.hou img {
+    vertical-align: middle;
+}
+
+.hou a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.login1 {
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 640px;
+    height: 460px;
+    /* background: url(../images/login_pro1.png) no-repeat; */
+    background: #23232e;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login1 .login-top {
+    margin: 0 auto;
+    width: 590px;
+    height: 161px;
+    background: url(../images/bg1.jpg);
+    background-size: cover;
+    border-radius: 16px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #23232e;
+    text-align: center;
+}
+
+.login1 .login-top h1 {
+    height: 161px;
+    margin-left: 27px;
+    background: url(../images/login_logo.png) no-repeat left center;
+}
+
+.login1 .login-input {
+    margin-top: 21px;
+    /* padding-left: 165px; */
+    padding-left: 133px;
+}
+
+.login1 .login-input p {
+    margin-top: 11px;
+    line-height: 39px;
+}
+
+.login1 .login-input p label {
+    float: left;
+    text-align: right;
+    width: 68px;
+    color: #A9A9A9;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login1 .login-input p input {
+    padding: 0 0 0 49px;
+    margin-left: 16px;
+    width: 195px;
+    height: 39px;
+    line-height: 39px\0;
+    *line-height: 39px;
+    border: none;
+    outline: none;
+}
+
+.login1 .login-input p.user input {
+    background: url(../images/login_user.png);
+}
+
+.login1 .login-input p.password input {
+    background: url(../images/login_password.png);
+}
+
+.login1 .login-input p.msg {
+    width: 210px;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 65px;
+    color: #ea569a;
+}
+
+.login1 .login-btn {
+    margin-top: 18px;
+    /* padding-left: 232px; */
+    padding-left: 217px;
+    line-height: 38px;
+}
+
+.login1 .login-btn .btn {
+    /* float: left; */
+    width: 245px;
+    height: 39px;
+    /* background: url(../images/login_btn.png); */
+    background: #F0FFFF;
+    color: #23232e;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
+    display: inline-block;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login1 .login-btn .remember {
+    float: left;
+    width: 80px;
+    position: relative;
+    margin-left: 22px;
+}
+
+.login1 .login-btn .remember em {
+    float: left;
+    width: 18px;
+    height: 38px;
+    background: url(../images/login_check.png) no-repeat left center;
+}
+
+.login1 .login-btn .remember input {
+    position: absolute;
+    height: 16px;
+    width: 18px;
+    top: 11px;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer;
+}
+
+.login1 .login-btn .remember label {
+    float: left;
+    line-height: 36px;
+    margin-left: 6px;
+    color: #000000;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.login1 .login-btn .remember input[type="checkbox"]:checked~em,
+.login .login-btn .remember.checked em {
+    background: url(../images/check-select.png) no-repeat left center;
+}
+
+.login1 .login-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.login1 .login-btn span:after {
+    content: '→';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.login1 .login-btn:hover span {
+    padding-right: 25px;
+}
+
+.login1 .login-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.login1 .login-btn:active {
+    transform: scale(0.97);
+}
+
+.login1 .login-input p.yzm input {
+    background: url(../images/login_yzm.png);
+}
+
+.yzm {
+    position: relative;
+}
+
+.yzm cite {
+    position: absolute;
+    right: 180px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.register {
+    width: 160px;
+    height: 25px;
+    line-height: 25px;
+    float: right;
+    margin-top: 68px;
+    font-size: 14px;
+}
+
+#ft {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    color: #10486b;
+    text-align: center;
+    z-index: 2;
+}
