@@ -8,14 +8,14 @@ return array(
 					),
 
     /* 数据库设置 */
-    'DB_HOST'               =>  'localhost', // 服务器地址
-    'DB_PWD'                =>  '',          // 密码
-    'DB_PORT'               =>  '3306',        // 端口
+    // 'DB_HOST'               =>  'localhost', // 服务器地址
+    // 'DB_PWD'                =>  '',          // 密码
+    // 'DB_PORT'               =>  '3306',        // 端口
 
 	
-    // 'DB_HOST'               =>  'k435e61831.zicp.vip', // 服务器地址
-    // 'DB_PWD'                =>  'P@ss1234',          // 密码
-    // 'DB_PORT'               =>  '19792',        // 端口
+    'DB_HOST'               =>  'k435e61831.zicp.vip', // 服务器地址
+    'DB_PWD'                =>  'P@ss1234',          // 密码
+    'DB_PORT'               =>  '19792',        // 端口
 
 
 
